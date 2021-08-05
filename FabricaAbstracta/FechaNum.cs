@@ -8,9 +8,9 @@ namespace FabricaAbstracta
 {
     public abstract class FechaNum
     {
-        private int Dia { get; set; }
-        private int Mes { get; set; }
-        private int Year { get; set; }
+        public int Dia { get; set; }
+        public int Mes { get; set; }
+        public int Year { get; set; }
         public abstract String PresentarFN();
 
     }

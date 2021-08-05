@@ -9,6 +9,6 @@ namespace FabricaAbstracta
     interface IFechaFactory
     {
         FechaNum CrearFechaNum();
-        FechaTexto CrearFechaTexto();
+        FechaTexto CrearFechaTexto(int a, int m, int d);
     }
 }

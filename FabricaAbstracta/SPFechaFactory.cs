@@ -13,9 +13,9 @@ namespace FabricaAbstracta
             return new SPFechaNum();
         }
 
-        public FechaTexto CrearFechaTexto()
+        public FechaTexto CrearFechaTexto(int a, int m, int d)
         {
-            return new SPFechaTexto();
+            return new SPFechaTexto(a,m,d);
         }
     }
 }

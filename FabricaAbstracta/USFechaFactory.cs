@@ -13,7 +13,7 @@ namespace FabricaAbstracta
             return new USFechaNum();
         }
 
-        public FechaTexto CrearFechaTexto()
+        public FechaTexto CrearFechaTexto(int a, int m, int d)
         {
             return new USFechaTexto();
         }
